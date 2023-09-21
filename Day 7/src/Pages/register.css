@@ -1,0 +1,122 @@
+.Register {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/11/Colorful-Garden-Flowers-hd-free-wallpapers.jpg");
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 800px;
+    height: 600px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 5);
+    background-color: rgb(225, 233, 238);
+    text-align: center;
+    border-color: #000000;
+    line-height: 30px;
+    align-content: center;
+  }
+  .font1 {
+    font-size: 29px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: -10px;
+  }
+  
+  .container1 {
+    max-width: 400px;
+    padding: 70px;
+    background-color: rgb(242, 245, 246);
+    box-shadow: 0 0 10px rgba(0, 0, 1, 5);
+    text-align: center;
+    opacity: 500%;
+    border-color: #000000;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #158af1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #71a5e4;
+  }
+  
+  .entered-data {
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    bottom: -20px;
+  }
+  
+  .error-box {
+    position: absolute;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+  }
+  
+  @media (max-width: 880px) {
+    .container {
+      height: auto;
+      padding: 30px;
+      opacity: 90%;
+      bottom: 190px;
+    }
+  
+    .container1 {
+      padding: 30px;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .container {
+      margin-left: 900px;
+      margin-right: auto;
+    }
+    .container1 {
+      margin-top: 30px;
+    }
+  }
+  
