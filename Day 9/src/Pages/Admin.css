@@ -1,0 +1,117 @@
+.loginbody {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130%;
+  position: relative;
+  top: -80px;
+  width: 1600px;
+  background-size: cover;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/11/Colorful-Garden-Flowers-hd-free-wallpapers.jpg");
+  background-size: cover;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow: hidden;
+}
+
+.containeraa {
+  max-width: 800px;
+  height: 600px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 1, 5);
+  background-color: rgba(219, 219, 219, 0.4);
+  text-align: center;
+  border-color: #000000;
+  line-height: 30px;
+  align-content: center;
+}
+.font1 {
+  font-size: 29px;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+.containeraa1 {
+  max-width: 400px;
+  padding: 50px;
+  background-image: url("https://wallpaperset.com/w/full/e/4/8/27832.jpg");
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 1, 5);
+  text-align: center;
+  opacity: 500%;
+  border-color: #000000;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button1 {
+  width: 100%;
+  padding: 10px;
+  background-color: #158af1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #fa7e7e;
+}
+
+.entered-data {
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  bottom: -20px;
+}
+
+.error-box {
+  position: absolute;
+  background-color: #f00;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: opacity 0.5s;
+}
+
+@media (max-width: 880px) {
+  .container {
+    height: auto;
+    padding: 30px;
+    opacity: 90%;
+    bottom: 190px;
+  }
+
+  .container1 {
+    padding: 30px;
+  }
+}
+

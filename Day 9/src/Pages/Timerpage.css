@@ -1,0 +1,120 @@
+/* TimerPage.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #dee5e8;
+    text-align: center;
+    opacity: 0.9; 
+    background-image: linear-gradient(to right, #aaf7f7 0%, rgb(255, 255, 255) 100%);
+  }
+  
+  .timer {
+    background-color: #222324;
+    width: 130%;
+    padding: 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-right: 80px;
+  }
+  
+  .timer-page h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #ffffff;
+  }
+  
+  .timer-page div {
+    margin-bottom: 20px;
+  }
+  
+  .timer-page label {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-family: cursive;
+  }
+  
+  .timer-page input {
+    width: 160px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .timer-page .toggle-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .timer-page .toggle-label {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+  }
+  
+  .timer-page .toggle-slider {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 24px;
+    height: 24px;
+    background-color: #010912;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .timer-page .toggle-input {
+    display: none;
+  }
+  
+  .timer-page .toggle-input:checked + .toggle-container .toggle-slider {
+    transform: translateX(30px);
+  }
+  
+  .timer-page .toggle-input:checked + .toggle-container {
+    background-color: #007bff;
+  }
+  
+  .timer-page .toggle-input:checked + .toggle-container .toggle-slider {
+    background-color: #fff;
+  }
+  
+  .timer-page .toggle-container:hover {
+    background-color: #ccc;
+  }
+  
+  .timer-page button {
+    padding: 14px 30px;
+    font-size: 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timer-page button:hover {
+    background-color: #0056b3;
+  }
+
+.white-square {
+  width: 40px; 
+  height: 40px; 
+  background-color: white;
+  position: relative;
+  left: 290px;
+  margin-top: 20px; 
+  border-radius: 50px;
+}
+.white-square.glow {
+  background-color: rgb(255, 242, 0); 
+}

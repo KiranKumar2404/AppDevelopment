@@ -1,0 +1,68 @@
+.user-details-container {
+    position: fixed;
+    top: 10px;
+    left: 5%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-height: 97%;
+    overflow-y: auto;
+  }
+  
+  .user-details-title {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .user-name1 {
+    font-weight: bold;
+    width: 50%;
+  }
+  
+  .remove-user-button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-user-button:hover {
+    background-color: #f44336;
+  }
+  .home-buttonU {
+    padding: 10px;
+    position: relative;
+    height: 32px;
+    width: 90px;
+    top: 0px;
+    right: 45%;
+  }
+  
