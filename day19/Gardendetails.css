@@ -1,0 +1,97 @@
+.GardenDetails-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 25px;
+}
+
+.GardenDetails-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.GardenDetails-element {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.GardenDetails-subtitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.GardenDetails-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.GardenDetails-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.GardenDetails-button:hover {
+  background-color: #0056b3;
+}
+
+.GardenDetails-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.GardenDetails-th,
+.GardenDetails-td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.GardenDetails-th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+.GardenDetails-td {
+  color: #555;
+}
+
+.GardenDetails-td button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.GardenDetails-td button:hover {
+  background-color: #0056b3;
+}
+
+.GardenDetails-table-container {
+  max-height: 140px; 
+  overflow-y: auto;
+}
